@@ -26,8 +26,8 @@ function saveUserData() {
         return;
     }
     if (roll.value<= 0) {
-    alert("Roll Number must be a positive number");
-    return;
+        alert("Roll Number must be a positive number");
+        return;
 }
 
     if (!address.value) {
