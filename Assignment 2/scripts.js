@@ -25,6 +25,10 @@ function saveUserData() {
         alert("Roll Number is required");
         return;
     }
+    if (roll.value<= 0) {
+    alert("Roll Number must be a positive number");
+    return;
+}
 
     if (!address.value) {
         alert("Address is required");
